@@ -24,7 +24,7 @@ pipeline {
         stage('Run Jar') {
             steps {
                
-                sh 'java -jar build/MavenToGradle2-1.0-SNAPSHOT.jar'
+                sh 'java -jar build/libs/MyMavenToGradle2-1.0-SNAPSHOT.jar'
             }
         }
     }
